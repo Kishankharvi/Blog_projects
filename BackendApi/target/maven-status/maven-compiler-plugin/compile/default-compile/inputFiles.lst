@@ -1,0 +1,10 @@
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\repository\BlogRepository.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\repository\CommentRepository.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\service\CommentService.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\controller\CommentController.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\SimpleBlogApplication.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\model\Comment.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\service\BlogService.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\config\WebConfig.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\controller\BlogController.java
+D:\blogproject\BackendApi\src\main\java\com\example\simpleblog\model\Blog.java

@@ -1,0 +1,10 @@
+com\example\simpleblog\repository\CommentRepository.class
+com\example\simpleblog\model\Blog.class
+com\example\simpleblog\controller\CommentController.class
+com\example\simpleblog\model\Comment.class
+com\example\simpleblog\service\CommentService.class
+com\example\simpleblog\controller\BlogController.class
+com\example\simpleblog\service\BlogService.class
+com\example\simpleblog\SimpleBlogApplication.class
+com\example\simpleblog\config\WebConfig.class
+com\example\simpleblog\repository\BlogRepository.class
