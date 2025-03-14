@@ -18,7 +18,7 @@ async function searchBlogs(query) {
       blogCards = `<p class="text-center">No blogs found matching "${query}". Try a different search term.</p>`
     } else {
       blogs.forEach((blog) => {
-        const imageSrc = blog.imagePath ;
+        const imageSrc = `http://localhost:8080/uploads/images/${blog.imagePath}`;
         const excerpt = truncateText(blog.content, 150)
 
         blogCards += `

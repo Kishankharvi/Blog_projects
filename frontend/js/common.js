@@ -19,23 +19,6 @@ function hideLoading() {
   loading.style.display = "none"
 }
 
-function showToast(message, type = "default") {
-  toast.textContent = message
-  toast.className = "toast"
-
-  if (type === "success") {
-    toast.classList.add("toast-success")
-  } else if (type === "error") {
-    toast.classList.add("toast-error")
-  }
-
-  toast.classList.add("show")
-
-  setTimeout(() => {
-    toast.classList.remove("show")
-  }, 3000)
-}
-
 function formatDate(dateString) {
   const options = { year: "numeric", month: "long", day: "numeric" }
   return new Date(dateString).toLocaleDateString(undefined, options)

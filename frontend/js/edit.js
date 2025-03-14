@@ -1,8 +1,8 @@
 
-import {  showLoading, hideLoading, fetchAPI, API_BASE_URL } from "./utils.js"
+import { showToast, showLoading, hideLoading, fetchAPI, API_BASE_URL } from "./utils.js"
 const pageContent = document.getElementById("page-content")
 
-let showToast
+
 
 
 

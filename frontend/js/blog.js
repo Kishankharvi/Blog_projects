@@ -1,4 +1,4 @@
-import { showLoading, hideLoading, fetchAPI, API_BASE_URL, formatDate } from "./utils.js";
+import { showToast,showLoading, hideLoading, fetchAPI, API_BASE_URL, formatDate } from "./utils.js";
 
 const pageContent = document.getElementById("page-content");
 
@@ -152,7 +152,7 @@ async function renderBlogPage() {
         `;
       });
     }
-    const imageSrc = `http://localhost:8080/${blog.imagePath}`;
+    const imageSrc = `http://localhost:8080/uploads/images/${blog.imagePath}`;
 
     const imageErrorHandler = `onerror="this.src='https://via.placeholder.com/1200x600';this.onerror=null;"`;
 
